@@ -57,6 +57,8 @@ Animal & Animal::operator = (const Animal & rhs) {
     return *this;
 }
 
+// Rule of three.
+// If you implement two then you should implement all three (copy ctor, copy detor, and copy operator).
 int main() {
     Animal a;
     a.print();

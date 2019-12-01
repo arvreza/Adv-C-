@@ -20,6 +20,7 @@ public:
     Rational operator / ( const Rational & ) const;
 };
 
+// Return a reference to itself
 Rational & Rational::operator = ( const Rational & rhs ) {
     if( this != &rhs ) {
         _n = rhs.numerator();

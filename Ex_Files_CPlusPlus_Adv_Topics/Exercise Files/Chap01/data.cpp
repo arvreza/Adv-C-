@@ -3,6 +3,8 @@
 #include <cstdio>
 using namespace std;
 
+//struct data member default to public as oppose to class which default to private
+//for presenting of data it is a good practice to use struct, but when we have functions then we should use class
 struct A {
     int ia;
     const char * sb = "";
